@@ -1,0 +1,14 @@
+﻿LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+home.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，函数 "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPAUGLFWwindow@@HHHH@Z) 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwGetFramebufferSize，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwSetKeyCallback，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+home.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 _main 中引用了该符号
+D:\OpenGLLib\Libs\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\repos\LearnOpenGL\OpenGL\Debug\OpenGL.exe : fatal error LNK1120: 11 个无法解析的外部命令

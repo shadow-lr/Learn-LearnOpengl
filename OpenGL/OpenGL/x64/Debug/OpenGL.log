@@ -1,0 +1,46 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  lighting_maps.cpp
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(164,24): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(175,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(181,37): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(182,37): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(183,37): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(269,11): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(270,11): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(274,18): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(275,18): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(277,10): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(278,10): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+B:\repos\LearnOpenGL\OpenGL\OpenGL\光照\Colors\lighting_maps.cpp(285,23): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(monitor.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(win32_time.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(wgl_context.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(image_helper.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(SOIL.obj)”或在“B:\repos\LearnOpenGL\OpenGL\x64\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“”(使用“SOIL.lib(stb_image_aug.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  OpenGL.vcxproj -> B:\repos\LearnOpenGL\OpenGL\x64\Debug\OpenGL.exe

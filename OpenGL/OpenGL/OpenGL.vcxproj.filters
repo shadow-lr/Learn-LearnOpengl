@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="入门\home.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\template.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\hello_triangnles\triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\hello_triangnles\quad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\hello_triangnles\colours_triangles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\hello_triangnles\different_vao_vbo_triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\shaders\shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\textures\texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\transformations\transformation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\coordinate_systems\coordinate_system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\Camera\camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="入门\Camera\camera_class_use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="光照\Colors\color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="光照\Colors\color_website.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="光照\Colors\basic_lighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="光照\Colors\materials.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="光照\Colors\lighting_maps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="入门\shaders\custom_shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom_shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\primary_shaders\shader.vs" />
+    <None Include="shaders\primary_shaders\shaderRed.frag" />
+    <None Include="shaders\primary_shaders\shaderYellow.frag" />
+    <None Include="shaders\primary_shaders\shaderTexture.frag" />
+    <None Include="shaders\primary_shaders\shaderTexture.vs" />
+    <None Include="shaders\primary_shaders\shaderTextureFrag.frag" />
+    <None Include="shaders\primary_shaders\shaderCoordinateSystem.vs" />
+    <None Include="shaders\primary_shaders\shaderCoordinateSystem.frag" />
+    <None Include="shaders\primary_shaders\shaderLightColor.vs" />
+    <None Include="shaders\primary_shaders\shaderLightColor.frag" />
+    <None Include="shaders\primary_shaders\shaderLightObject.frag" />
+    <None Include="shaders\basic_lighting\shaderBaseLighting.frag" />
+    <None Include="shaders\basic_lighting\shaderBaseLighting.vert" />
+    <None Include="shaders\materials\shaderMaterials.frag" />
+    <None Include="shaders\materials\shaderMaterials.vert" />
+    <None Include="shaders\materials\shaderLightingMaps.vert" />
+    <None Include="shaders\materials\shaderLightingMaps.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\primary_shaders\shader.txt" />
+    <Text Include="shaders\primary_shaders\shaderRed.txt" />
+    <Text Include="shaders\primary_shaders\shaderYellow.txt" />
+    <Text Include="shaders\primary_shaders\shaderTexture.txt" />
+    <Text Include="shaders\primary_shaders\shaderTextureFrag.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="textures\container2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="textures\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
